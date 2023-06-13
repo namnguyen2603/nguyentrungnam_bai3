@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bai3</title>
+    <link rel="stylesheet" href="../ex3/ex3.css" />
+  </head>
+  <body>
+    <div class="form">
+      <form action="">
+        <table>
+          <!-- user name -->
+          <tr class="username">
+            <td><label for="username"> User name: </label></td>
+            <td><input type="text" name="username" id="username" /></td>
+          </tr>
+
+          <!-- password -->
+          <tr class="password">
+            <td><label for="password">Password: </label></td>
+            <td><input type="password" name="password" id="password" /></td>
+          </tr>
+
+          <!-- city -->
+          <tr class="city">
+            <td><label for="City">City of Employment: </label></td>
+            <td><input type="text" name="city" id="city" /></td>
+          </tr>
+
+          <!-- web server -->
+          <tr class="webserver">
+            <td><label for="webserver">Web server: </label></td>
+            <td>
+              <select>
+                <option value="0" hidden>-- Choose a server --</option>
+                <option value="1">Asian</option>
+                <option value="2">North America</option>
+                <option value="3">Euro</option>
+                <option value="4">South America</option>
+              </select>
+            </td>
+          </tr>
+
+          <!-- role -->
+          <tr>
+            <td rowspan="4"><label>Please specify your role:</label></td>
+            <td>
+              <label><input type="radio" name="role" />Admin</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label><input type="radio" name="role" />Engineer</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label><input type="radio" name="role" />Manager</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label><input type="radio" name="role" />Guest</label>
+            </td>
+          </tr>
+
+          <!-- Single Sign-on to the following -->
+          <tr>
+            <td rowspan="3">
+              <label>Single Sign-on to the following: </label>
+            </td>
+            <td>
+              <label><input type="checkbox" value="1" />Mail</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label><input type="checkbox" value="2" />Payroll</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label><input type="checkbox" value="3" />Seft-service</label>
+            </td>
+          </tr>
+        </table>
+
+        <!-- button -->
+        <button type="submit" class="login">Login</button>
+        <button type="reset" class="reset">Reset</button>
+      </form>
+    </div>
+  </body>
+</html>

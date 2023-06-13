@@ -1,0 +1,56 @@
+/* reset css */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    }
+
+    hr{
+        display: block;
+        margin-left: 47%;   
+        margin-bottom: 50px;     
+        width: 100px;
+        height: 5px;
+        border-width: 0;
+        background-color: #3d7bba;
+
+    }
+ blockquote {
+    font-style: italic;
+    position: relative;
+    left: 65px;
+    bottom: 50px;
+ }
+
+ div p {
+    margin-top: 30px;
+ }
+    h1{
+        text-align: center;
+        padding: 30px;
+    }
+
+.comment {
+    display: flex;
+    padding: 50px 0 0 0;
+}
+.comment img {
+    width: 50px;
+}
+.comment div {
+    padding: 0px 50px;
+    margin: 0 40px;
+}
+.comment-1 {
+    display: flex;
+    padding: 20px;
+}
+.comment-1 img {
+    width: 50px;
+}
+.comment-1 div {
+    padding: 50px;
+    margin: 0 40px;
+
+}

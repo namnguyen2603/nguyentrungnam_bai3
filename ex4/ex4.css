@@ -1,0 +1,85 @@
+/* reset css */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    }
+
+/* header */
+    .header {
+        margin: 20px 20px;
+    }
+
+    .city-1 {
+        text-align: center;
+        background-color: #c4a260;
+        width: 200px;
+        border: 1px solid;
+        border-color: black;
+        padding: 10px;
+        color: white;
+    }
+
+    .city-2 {
+        text-align: center;
+        position: relative;
+        width: 200px;
+        border: 1px solid;
+        border-color: c4a260;
+        padding: 10px;
+        left: 200px;
+        top: -40.5px;
+        color: #c4a260;
+    }
+
+    .city-3 {
+        text-align: center;
+        position: relative;width: 200px;
+        border: 1px solid;
+        border-color: c4a260;
+        padding: 10px;
+        left: 400px;
+        top: -81px;
+        color: #c4a260;
+    }
+
+    .city-4 {
+        text-align: center;
+        position: relative;
+        width: 200px;
+        border: 1px solid;
+        border-color: c4a260;
+        padding: 10px;
+        left: 600px;
+        top: -121.5px;
+        color: #c4a260;
+    }
+
+/* cột thông tin */
+.info {
+        position: relative;
+        bottom: 100px;
+        width: 30%;
+        height: 450px;
+        background-color: rgba(128, 128, 128, 0.149);
+        margin-left: 20px;
+    }
+    
+    h1 {
+        padding: 20px 0 20px 20px ;
+    }
+    .address {
+        width: 50%;
+        padding: 20px 0 20px 20px
+    }
+    .contact {
+        padding: 20px 0 20px 20px
+
+    }
+/* map */
+    .map{
+        position: relative;
+        top: -550px;
+        margin-left: 30%;
+    }

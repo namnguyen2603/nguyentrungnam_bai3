@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    }
+ /* header */
+ .header{
+    font-family: arial ;
+    font-weight: 100; 
+margin: 30px 0 0 20px;
+}
+
+/* đường kẻ */
+hr{
+    display: block;
+    margin: 10px 0 40px 20px;
+    width: 70px;
+    height: 5px;
+    border-width: 0;
+    background-color: orange;
+}
+
+.content {
+    display: flex;
+}
+/* contact-info */
+.contact-info{
+    display: block;
+    width: 20%;
+    margin-left: 20px;
+}
+.contact-info > div > img{
+width: 25px;}
+
+.contact-info div{
+    margin: 20px 50px 0 0;
+}
+
+/* form */
+input{
+    width: 500px;
+    margin: 10px 0px;
+}
+.form{
+    margin-left: 30px;
+}
+
+textarea{
+    width: 500px;
+    margin: 10px 0;
+}
+button{
+    padding: 10px;
+    background-color: #17abdc9d;
+}

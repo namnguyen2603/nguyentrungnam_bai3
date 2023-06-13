@@ -1,0 +1,17 @@
+/* reset css */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    }
+
+.form{
+    width: 280px;
+    margin-top: 30px;
+}
+
+.login{
+   margin-left: 100px;
+}
+
